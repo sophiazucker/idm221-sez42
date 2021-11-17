@@ -16,58 +16,6 @@
   /* Sections
      ========================================================================== */
   
-  /**
-   * Remove the margin in all browsers.
-   */
-  
-  body {
-    background-color:black;
-    color: whitesmoke;
-   
-    margin-top: 1rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1rem;
-  }
-  
-  /**
-   * Render the `main` element consistently in IE.
-   */
-  
-  main {
-    /* Figure this out!!!! */
-    display: block;
-    max-width: 800px;
-    margin-top: 1rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-  
-  /**
-   * Correct the font size and margin on `h1` elements within `section` and
-   * `article` contexts in Chrome, Firefox, and Safari.
-   */
-  
-  h1 {
-    background: linear-gradient(0deg, rgba(216,143,89,1) 0%, rgba(245,192,135,1) 100%);
-    color: black;
-    font-size: 2em;
-    margin-top: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  h2, h3 {
-    color: whitesmoke;
-    margin-top: 1rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1rem;
-  }
   
   /* Grouping content
      ========================================================================== */
@@ -373,4 +321,56 @@
   
   [hidden] {
     display: none;
+  }
+
+  body {
+    background-color:black;
+    color: whitesmoke;
+   
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+  }
+
+ /**
+   * Render the `main` element consistently in IE.
+   */
+  
+   main {
+    /* Figure this out!!!! */
+    display: block;
+    max-width: 800px;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+/**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+  
+   h1 {
+    background: linear-gradient(0deg, rgba(245,192,135,1) 0%, rgba(216,143,89,1) 100%);
+    color: black;
+    font-size: 4rem;
+    text-align: center;
+    border: 6rem;
+    padding: 6rem;
+  }
+
+  h2, h3 {
+    color: whitesmoke;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+  }
+
+  .concert-imgs img {
+    width: 100%;
   }
