@@ -323,11 +323,10 @@
     display: none;
   }
 
-  .your-style {
+  @font-face {
     font-family: 'Work Sans';
-    font-weight: 300;
-    font-style: normal;
-}
+    src: url(..//idm221-sez42/fonts/WorkSans-Light.woff2) (format("woff2"));
+  }
 
   body {
     background-color:black;
@@ -386,11 +385,13 @@
     font-family: 'Work Sans', Helvetica, sans-serif
   }
 
-  .concert-imgs img {
+ .header_logo {
+    max-width: 100px;
+    padding:1rem
+  }
+
+  img {
     width: 100%;
   }
 
-  @font-face {
-    font-family: 'Work Sans';
-    src: url(fonts/WorkSans-Light.woff2) (format("woff2"));
-  }
+ 
