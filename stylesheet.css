@@ -325,7 +325,7 @@
 
   @font-face {
     font-family: 'Work Sans';
-    src: url(../fonts/WorkSans-Light.woff2) (format('woff2'));
+    src: url(fonts/WorkSans-Light.woff2) (format('woff2'));
     font-style: normal;
   }
 
