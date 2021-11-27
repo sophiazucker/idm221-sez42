@@ -332,7 +332,7 @@
   body {
     background-color:black;
     color: whitesmoke;
-   
+    zoom: 75%;
     margin-top: 1rem;
     margin-right: auto;
     margin-bottom: 1rem;
@@ -363,12 +363,15 @@
    h1 {
     background: linear-gradient(0deg, rgba(245,192,135,1) 0%, rgba(216,143,89,1) 100%);
     color: black;
-    margin: 0;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
     border: 6rem;
     padding: 6rem;
     font-family: 'Work Sans', Helvetica, sans-serif;
     font-style: normal;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 300;
     text-align: center;
   }
