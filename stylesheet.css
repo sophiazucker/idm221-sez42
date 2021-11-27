@@ -424,24 +424,46 @@
 
   ul.nav-menu {
     list-style-type: none;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     margin-right: 0;
     margin-bottom: 1rem;
     margin-left: 0;
-    font-family: 'Work Sans', Helvetica, sans-serif;
-    font-size: 1.2rem;
-    font-weight: 400;
-    line-height: 1.5rem;
+    padding: 0;
+    border: 0;
+    font-size: 0;
+    background-color: rgba(245,192,135,1);
     text-align: left;
   }
 
- .header-logo {
+  li.nav-item {
+    display: inline-block;
+    background-color: rgba(245,192,135,1);
+    margin: 0;
+    padding: 1rem;
+    font-family: 'Work Sans', Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  li.nav-item-active {
+    display: inline-block;
+    background-color: rgba(216,143,89,1);
+    margin: 0;
+    padding: 1rem;
+    font-family: 'Work Sans', Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center; 
+  }
+
+  .header-logo {
     max-width: 100px;
     margin: 0;
     padding-left:1rem;
   }
 
- .about {
+  .about {
    text-align: center;
    font-size: 1.2rem
  }
