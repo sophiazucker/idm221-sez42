@@ -325,7 +325,8 @@
 
   @font-face {
     font-family: 'Work Sans';
-    src: url(..//idm221-sez42/fonts/WorkSans-Light.woff2) (format("woff2"));
+    src: url(../fonts/WorkSans-Light.woff2) (format('woff2'));
+    font-style: normal;
   }
 
   body {
@@ -333,9 +334,9 @@
     color: whitesmoke;
    
     margin-top: 1rem;
-    margin-left: auto;
     margin-right: auto;
     margin-bottom: 1rem;
+    margin-left: auto;
   }
 
  /**
@@ -347,9 +348,9 @@
     display: block;
     max-width: 800px;
     margin-top: 1rem;
-    margin-left: auto;
     margin-right: auto;
     margin-bottom: 1rem;
+    margin-left: auto;
     padding-left: 2rem;
     padding-right: 2rem;
   }
@@ -362,36 +363,92 @@
    h1 {
     background: linear-gradient(0deg, rgba(245,192,135,1) 0%, rgba(216,143,89,1) 100%);
     color: black;
+    margin: 0;
     border: 6rem;
     padding: 6rem;
-    text-align: center;
+    font-family: 'Work Sans', Helvetica, sans-serif;
+    font-style: normal;
     font-size: 4rem;
     font-weight: 300;
-    font-style: normal;
-    font-family: 'Work Sans', Helvetica, sans-serif
+    text-align: center;
   }
 
   h2, h3 {
     color: whitesmoke;
     margin-top: 1rem;
-    margin-left: auto;
     margin-right: auto;
     margin-bottom: 1rem;
-    font-family: 'Work Sans', Helvetica, sans-serif
+    margin-left: auto;
+    font-family: 'Work Sans', Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 200;
+    text-align: left;
+  }
+
+  h4 {
+    color: whitesmoke;
+    margin-top: 1rem;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    font-family: 'Work Sans', Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
   }
 
   p {
     color: whitesmoke;
-    font-family: 'Work Sans', Helvetica, sans-serif
-  }
-
- .header_logo {
-    max-width: 100px;
-    padding:1rem
+    margin: 1rem;
+    font-family: 'Work Sans', Helvetica, sans-serif;
+    line-height: 1.5rem;
   }
 
   img {
     width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
   }
 
+  ul.contact-info {
+    list-style-type: none;
+    color: whitesmoke;
+    font-family: 'Work Sans', Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  ul.nav-menu {
+    list-style-type: none;
+    margin-top: 0.5rem;
+    margin-right: 0;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    font-family: 'Work Sans', Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    text-align: left;
+  }
+
+ .header-logo {
+    max-width: 100px;
+    margin: 0;
+    padding-left:1rem;
+  }
+
+ .about {
+   text-align: center;
+   font-size: 1.2rem
+ }
+
+  .footer {
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+    margin-bottom: 1.5rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+  }
  
