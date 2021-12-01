@@ -368,9 +368,8 @@
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 0;
-    border: 0;
+    border: 6rem;
     padding: 6rem;
-    max-width: fit-content;
     overflow-wrap: break-word;
     font-family: 'Work Sans', Helvetica, sans-serif;
     font-style: normal;
