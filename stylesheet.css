@@ -364,14 +364,13 @@
    h1 {
     background: linear-gradient(0deg, rgba(245,192,135,1) 0%, rgba(216,143,89,1) 100%);
     color: black;
-    display: inline-block;
+    display: block;
     margin-top: 0;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 0;
     border: 6rem;
     padding: 6rem;
-    overflow-wrap: break-word;
     font-family: 'Work Sans', Helvetica, sans-serif;
     font-style: normal;
     font-size: 2rem;
@@ -471,8 +470,13 @@
     padding-left:1rem;
   }
 
+  .header {
+    text-align: center;
+    overflow: visible;
+  }
+
   .about {
-   text-align: center;
+   text-align: justify;
    font-size: 1.2rem
  }
 
