@@ -477,7 +477,7 @@
   }
 
   .about {
-   text-align: justify;
+   text-align: left;
    font-size: 1.2rem
  }
 
@@ -488,5 +488,6 @@
     margin-left: 1rem;
     font-size: 1rem;
     font-weight: 400;
+    text-align: center;
   }
  
